@@ -169,6 +169,12 @@ a {
   justify-content: space-evenly;
 }
 
-.page-bottom-ascii p {
+.page-bottom-ascii {
   text-align: center;
+}
+
+.testing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
