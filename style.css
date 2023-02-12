@@ -73,17 +73,18 @@ a {
   text-decoration: none; /* no underline */
 }
 
-.link {
+.mylink {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  padding-top: 2rem;
 }
 
-.links {
-  height: 350px;
+.social-links {
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -101,7 +102,7 @@ a {
   color: transparent;
 }
 
-.btn-yours {
+.bton-yours {
   width: 100%;
   border-radius: 15px;
   color: white;
@@ -115,10 +116,11 @@ a {
   margin-bottom: 9px;
 }
 
-.btn-yours:hover {
+.bton-yours:hover {
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(7,134,126,1) 40%, rgba(42,163,84,1) 56%, rgba(114,65,115,1) 74%, rgba(255,0,78,1) 87%, rgba(188,191,22,1) 100%);
   background-size: 400% 400%;
 	animation: gradient 14s ease infinite;
+  color: white;
 }
 
 @keyframes gradient {
@@ -177,4 +179,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.page-bottom {
+}
+
+.spot {
+  margin-top: 2rem;
 }
