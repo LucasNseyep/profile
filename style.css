@@ -47,7 +47,6 @@ body {
   height: 200px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
-
   background-image: url("./images/Portrait_of_Duke_Alessandro_de_Medici.png");
   transition: 1s background-image;
 }
@@ -139,49 +138,8 @@ a {
   color: #F3713E;
 }
 
-.nav-bar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-bar li {
-  float: right;
-  font-size: 0.9rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.nav-bar li a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #444;
-  padding: 0 30px;
-}
-
-.nav-bar li a:hover {
-  opacity: 0.7;
-}
-
-.nav-bar {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .page-bottom-ascii {
   text-align: center;
-}
-
-.testing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.page-bottom {
 }
 
 .spot {
